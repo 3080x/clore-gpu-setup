@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   clore-gpu-worker:
-    image: cloreai/clore-gpu-worker:latest
+    image: cloreai/worker:latest
     container_name: clore-gpu-worker
     restart: always
     environment:
