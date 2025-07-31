@@ -8,7 +8,7 @@ services:
     environment:
       - CUDNN_VERSION=8
       - NVIDIA_VISIBLE_DEVICES=all
-      - API_KEY=6bMobrAb3B4VeUxtNtNSiioxRcAIiy
+      - API_KEY=9JGgI5LHzdzEKeXengfZWrgdHpA.SBWj
     deploy:
       resources:
         reservations:
