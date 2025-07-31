@@ -2,13 +2,13 @@ version: "3.8"
 
 services:
   clore-gpu-worker:
-    image: image: cloreai/clore-gpu-worker:latest
+    image: cloreai/clore-gpu-worker:latest
     container_name: clore-gpu-worker
     restart: always
     environment:
       - CUDNN_VERSION=8
       - NVIDIA_VISIBLE_DEVICES=all
-      - API_KEY6bh4orAb8J4v0eUTxhtRNSiioxRcAliy
+      - API_KEY=6bMobrAb3B4VeUxtNtNSiioxRcAIiy
     deploy:
       resources:
         reservations:
@@ -18,3 +18,4 @@ services:
               capabilities: [gpu]
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
